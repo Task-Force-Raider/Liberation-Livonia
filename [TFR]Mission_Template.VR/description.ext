@@ -1,0 +1,33 @@
+class Header
+	{
+		gameType 			= 	Coop; 
+		minPlayers 			= 	1; 
+		maxPlayers 			= 	26; 
+	};
+
+author 						= 	"McFur";
+
+briefingName 				= 	"Mission Template";
+
+OnLoadName 					= 	"Mission Template";
+overviewText 				= 	"<t color='#FF0000'>Protection Detail<br /><t color='#FCEF06'>VANILLA";
+
+onLoadIntro 				= 	"Mission Template";
+onLoadMission 				= 	"<t color='#FF0000'>Protection Detail<br /><t color='#FCEF06'>VANILLA";
+
+joinUnassigned 				= 	1;
+disabledAI 					= 	1;
+
+respawnDialog 				= 	0;
+respawn 					= 	"BASE";
+respawnDelay 				= 	5;
+respawnTemplates[] 			= 	{"MenuPosition"};
+respawnOnStart 				= 	-1;
+
+
+briefing 					= 	-1;
+debriefing 					= 	-1;
+
+showGPS 					= 	1;
+showUAVFeed 				= 	1;
+allowFunctionsRecompile 	= 	1;

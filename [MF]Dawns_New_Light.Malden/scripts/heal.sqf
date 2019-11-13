@@ -1,0 +1,2 @@
+cursorObject setDamage 0;
+[cursorObject,cursorObject] call ace_medical_fnc_treatmentAdvanced_fullHealLocal;
