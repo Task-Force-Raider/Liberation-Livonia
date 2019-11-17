@@ -1,2 +1,0 @@
-[] execVM "briefing.sqf";
-
