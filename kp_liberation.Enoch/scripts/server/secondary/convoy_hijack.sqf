@@ -54,7 +54,7 @@ sleep 0.5;
 _convoy_group setFormation "FILE";
 _convoy_group setBehaviour "SAFE";
 _convoy_group setCombatMode "GREEN";
-_convoy_group setSpeedMode "LIMITED";
+_convoy_group setSpeedMode "NORMAL";
 
 while {(count (waypoints _convoy_group)) != 0} do {deleteWaypoint ((waypoints _convoy_group) select 0);};
 {_x doFollow leader _convoy_group} foreach units _convoy_group;
