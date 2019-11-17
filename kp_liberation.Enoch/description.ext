@@ -8,11 +8,11 @@ allowFunctionsLog = 0;
 unsafeCVL = 1;
 
 briefingName = $STR_MISSION_TITLE;
-overviewText = "www.killahpotatoes.de";
+overviewText = "Original: www.killahpotatoes.de || Edited by www.guilded.gg/Task-Force-Raider/";
 overviewPicture = "res\lib.paa";
-author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer";
+author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer with edits from McFur, The-Pope-Himself, BroBeans, Stevie Wonder & the TFR crew";
 onLoadName = $STR_MISSION_TITLE;
-onLoadMission = "www.killahpotatoes.de";
+onLoadMission = "www.guilded.gg/Task-Force-Raider/";
 loadScreen = "res\lib.paa";
 
 joinUnassigned = 1;
