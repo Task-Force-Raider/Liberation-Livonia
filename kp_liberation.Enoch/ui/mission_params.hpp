@@ -4,7 +4,7 @@ class Params
         title = $STR_PARAMS_LOADSAVEPARAMS;
         values[] = { 0, 1, 2 };
         texts[] = { $STR_PARAMS_LOADSAVEPARAMS_SAVE, $STR_PARAMS_LOADSAVEPARAMS_LOAD, $STR_PARAMS_LOADSAVEPARAMS_SELECTED };
-        default = 1; // If you want to set mission parameters via server.cfg or this file, then set this value to 2
+        default = 2; // If you want to set mission parameters via server.cfg or this file, then set this value to 2
     };
     class Spacer0 {
         title = "";
@@ -94,7 +94,7 @@ class Params
         title = $STR_SHORTER_NIGHTS_PARAM;
         values[] = {1,0};
         texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-        default = 0;
+        default = 1;
     };
     class Weather {
         title = $STR_WEATHER_PARAM;
@@ -118,7 +118,7 @@ class Params
         title = $STR_PARAMS_ARSENAL;
         values[] = {0, 1};
         texts[] = {$STR_PARAMS_ARSENAL_BI, $STR_PARAMS_ARSENAL_ACE};
-        default = 0;
+        default = 1;
     };
     class VictoryCondition {
         title = $STR_PARAMS_VICTORYCONDITION;
@@ -202,13 +202,13 @@ class Params
         title = $STR_PARAMS_FATIGUE;
         values[] = { 0, 1 };
         texts[] = { $STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED };
-        default = 1;
+        default = 0;
     };
     class ArsenalUsePreset {
         title = $STR_PARAMS_ARSENALUSEPRESET;
         values[] = { 0, 1 };
         texts[] = { $STR_PARAMS_NORESTRICTIONS, $STR_PARAMS_USEPRESET };
-        default = 1;
+        default = 0;
     };
     class MapMarkers {
         title = $STR_PARAMS_MAPMARKERS;
@@ -226,7 +226,7 @@ class Params
         title = $STR_PARAM_RESPAWN_COOLDOWN;
         values[] = {0, 300, 600, 900, 1200, 1800, 3600};
         texts[] = {$STR_PARAMS_DISABLED, 5, 10, 15, 20, 30, 60};
-        default = 900;
+        default = 3600;
     };
     class MobileArsenal {
         title = $STR_PARAMS_MOBILEARSENAL;
@@ -280,7 +280,7 @@ class Params
         title = $STR_PARAM_LIMITEDZEUS;
         values[] = {1,0};
         texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-        default = 1;
+        default = 0;
     };
     class Spacer3 {
         title = "";
@@ -310,13 +310,13 @@ class Params
         title = $STR_PARAMS_INTRO;
         values[] = { 1, 0 };
         texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-        default = 1;
+        default = 0;
     };
     class DeploymentCinematic {
         title = $STR_PARAMS_DEPLOYMENTCAMERA;
         values[] = { 1, 0 };
         texts[] = { $STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED };
-        default = 1;
+        default = 0;
     };
     class Whitelist {
         title = $STR_WHITELIST_PARAM;
