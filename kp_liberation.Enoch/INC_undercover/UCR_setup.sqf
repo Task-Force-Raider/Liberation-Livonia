@@ -12,11 +12,11 @@ _undercoverUnitSide = west;             //What side is/are the undercover unit(s
 
 //-------------------------General Settings-------------------------
 
-_debug = true;                         //Set to true for debug
+_debug = false;                         //Set to true for debug
 _fullAIfunctionality = true;            //Enable all checks on AI (may degrade performace very slightly for large groups, 15+)
 _easyMode = true;                       //Disguise checks will also reveal if the player's disguise is working or not
 
-_racism = false;                         //Enemies will notice if you aren't the race of the faction you're pretending to be (making you easier to detect if nothing is covering your face)
+_racism = true;                         //Enemies will notice if you aren't the race of the faction you're pretending to be (making you easier to detect if nothing is covering your face)
 _racProfFacCiv = 1;                     //(Number) Multiplies the effect of racial profiling. Lower this number to simulate more multicultural civilian population
 _racProfFacEny = 1;                     //(Number) Multiplies the effect of racial profiling. Lower this number to simulate more multicultural enemy forces
 
@@ -111,7 +111,7 @@ You can also dismiss your new teammates and they will leave your group and carry
 */
 
 _civRecruitEnabled = true;          //(Bool - true or false) Set this to false to prevent undercover units from recruiting civilians
-_armedCivPercentage = 70;           //(Number - 0 to 100) Max percentage of civilians armed with weapons from the array below, either on their person or in their backpacks (will only work if _civRecruitEnabled is set to true, otherwise this is ignored)
+_armedCivPercentage = 40;           //(Number - 0 to 100) Max percentage of civilians armed with weapons from the array below, either on their person or in their backpacks (will only work if _civRecruitEnabled is set to true, otherwise this is ignored)
 
 //Weapon classnames for armed civilians (array of classnames)
 _civWpnArray = ["arifle_AKS_F","arifle_AKM_F","hgun_Pistol_01_F","hgun_Rook40_F","hgun_ACPC2_F","hgun_Rook40_F"];
