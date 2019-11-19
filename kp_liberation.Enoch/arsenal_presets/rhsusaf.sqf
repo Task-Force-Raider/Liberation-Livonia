@@ -4,9 +4,7 @@
 // RHS USAF
 
 GRLIB_arsenal_weapons = [
-	"lerca_1200_black",
-	"lerca_1200_tan",
-	"Leupold_Mk4",
+
 	"RHS_weap_AGM114K_Launcher",
 	"RHS_weap_AGM114M_Launcher",
 	"RHS_weap_AGM114N_Launcher",
