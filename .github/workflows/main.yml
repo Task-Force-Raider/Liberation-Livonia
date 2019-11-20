@@ -1,0 +1,2 @@
+- name: sqflint
+  uses: arma-actions/sqflint@v1.0
