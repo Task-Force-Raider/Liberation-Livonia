@@ -12,6 +12,7 @@ GRLIB_whitelisted_tags = [
 // To know that information: https://steamid.io/
 GRLIB_whitelisted_steamids = [
 "76561198100534647"         //BroBeans
+"76561198021147331"         //Stevie Wonder
 ];
 
 // Allowed individual player names. Note that this method is not very secure contrary to SteamIDs.
