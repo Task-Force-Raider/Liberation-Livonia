@@ -13,6 +13,7 @@ GRLIB_whitelisted_tags = [
 GRLIB_whitelisted_steamids = [
 
 	
+	
 76561198140513211,	//McFur
 76561198022652673 	//Daffles
 ];
