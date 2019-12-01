@@ -132,6 +132,7 @@ air_vehicles = [
     ["B_UAV_02_dynamicLoadout_F",400,300,200],                          // MQ-4A Greyhawk
     ["B_T_UAV_03_dynamicLoadout_F",450,500,250],                        // MQ-12 Falcon
     ["B_UAV_05_F",500,500,200],                                         // UCAV Sentinel
+    ["RHSGREF_A29B_HIDF",650,750,400],                                  // A-29 Super Tucano
     ["RHS_A10",1000,1000,400],                                          // A-10A (CAS)
     ["FIR_F15C",1250,1250,450],                                         // F-15C Eagle
     ["FIR_F15D",1250,1250,450],                                         // F-15D Eagle
@@ -361,6 +362,7 @@ elite_vehicles = [
     "B_UAV_02_dynamicLoadout_F",                                        // MQ-4A Greyhawk
     "B_T_UAV_03_dynamicLoadout_F",                                      // MQ-12 Falcon
     "B_UAV_05_F",                                                       // UCAV Sentinel
+    "RHSGREF_A29B_HIDF",                                                // A-29 Super Tucano
     "RHS_A10",                                                          // A-10A (CAS)
     "FIR_F15C",                                                         // F-15C Eagle
     "FIR_F15D",                                                         // F-15D Eagle
