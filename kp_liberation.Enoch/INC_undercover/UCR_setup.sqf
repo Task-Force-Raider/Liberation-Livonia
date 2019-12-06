@@ -38,13 +38,13 @@ _civFactions = ["CIV_F","CUP_C_CHERNARUS","CUP_C_RU"]; //Array of factions whose
 _civilianVests = [];
 
 //(Array of classnames) Safe uniforms (on top of the specific factions above - useful if faction has randomisation script or to add items that are not used by the faction)
-_civilianUniforms = ["U_BG_Guerilla2_2","U_BG_Guerilla2_1","U_BG_Guerilla2_3","U_I_C_Soldier_Bandit_4_F","U_I_C_Soldier_Bandit_1_F","U_I_C_Soldier_Bandit_2_F","U_I_C_Soldier_Bandit_5_F","U_I_C_Soldier_Bandit_3_F"];
+_civilianUniforms = ["CFP_GUER_GreenTan","U_I_L_Uniform_01_tshirt_black_F","CFP_GUER_M81Tee","U_I_L_Uniform_01_tshirt_skull_F","CFP_Bandit_Adidas","U_BG_Guerilla2_2","U_BG_Guerilla2_1","U_BG_Guerilla2_3","U_I_C_Soldier_Bandit_4_F","U_I_C_Soldier_Bandit_1_F","U_I_C_Soldier_Bandit_2_F","U_I_C_Soldier_Bandit_5_F","U_I_C_Soldier_Bandit_3_F"];
 
 //(Array of classnames) Safe headgear (will automatically include civilian headgear classes - useful if faction has randomisation script or to add items that are not used by the faction)
-_civilianHeadgear = [];
+_civilianHeadgear = ["CUP_H_PMC_Beanie_Khaki","CUP_H_PMC_Cap_Tan","CUP_H_PMC_Cap_Back_Tan","CUP_H_PMC_Cap_Grey","CUP_H_PMC_Beanie_Black"];
 
 //(Array of classnames) Safe backpacks (will automatically include civilian backpack classes - useful if faction has randomisation script or to add items that are not used by the faction)
-_civilianBackpacks = ["B_FieldPack_blk","B_FieldPack_cbr","B_FieldPack_khk","B_FieldPack_oucamo","G_FieldPack_Medic","B_Carryall_cbr","B_Carryall_khk","B_Carryall_oucamo","B_TacticalPack_blk","B_TacticalPack_rgr","B_TacticalPack_oli","B_Kitbag_cbr","B_Kitbag_rgr","B_Kitbag_sgg","B_Respawn_Sleeping_bag_blue_F","B_Respawn_Sleeping_bag_brown_F","B_Respawn_TentDome_F","B_Respawn_TentA_F","B_Parachute","ACE_NonSteerableParachute","ACE_TacticalLadder_Pack"];
+_civilianBackpacks = ["B_AssaultPack_blk","B_AssaultPack_rgr","CFP_Kitbag_Aloha","SP_Carryall_Black","B_Messenger_Black_F","B_FieldPack_blk","B_FieldPack_cbr","B_FieldPack_khk","B_FieldPack_oucamo","G_FieldPack_Medic","B_Carryall_cbr","B_Carryall_khk","B_Carryall_oucamo","B_TacticalPack_blk","B_TacticalPack_rgr","B_TacticalPack_oli","B_Kitbag_cbr","B_Kitbag_rgr","B_Kitbag_sgg","B_Respawn_Sleeping_bag_blue_F","B_Respawn_Sleeping_bag_brown_F","B_Respawn_TentDome_F","B_Respawn_TentA_F","B_Parachute","ACE_NonSteerableParachute","ACE_TacticalLadder_Pack"];
 
 //(Array of classnames) Safe vehicles to drive in (automatically includes vehicles from the civilian factions above).
 _civilianVehicleArray = [];
