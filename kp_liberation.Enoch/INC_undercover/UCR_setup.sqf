@@ -55,7 +55,7 @@ _noOffRoad = false; //Civilian vehicles driving at speed more than 50 meters fro
 
 
 //-------------------------Enemy Disguise settings-------------------------
-_incogFactions = ["OPF_F","OPF_T_F","rhsgref_faction_nationalist","rhsgref_faction_cdf_ground","rhssaf_faction_un","rhs_faction_vmf","rhs_faction_vdv","rhs_faction_msv","rhsgref_faction_chdkz","IND_G_F"]; //Array of enemy factions whose items and vehicles will allow the player to impersonate the enemy
+_incogFactions = ["OPF_F","OPF_T_F","rhsgref_faction_nationalist","rhsgref_faction_cdf_ground","rhssaf_faction_un","rhs_faction_vmf","rhs_faction_vdv","rhs_faction_msv","rhsgref_faction_chdkz","IND_G_F","rhs_faction_vvs_c","rhs_faction_vpvo","rhs_faction_vv","rhs_faction_tv"]; //Array of enemy factions whose items and vehicles will allow the player to impersonate the enemy
 
  //Names of additional markers for areas that would be considered trespassing (any with "INC_tre" - case sensitive - somewhere in the marker name will automatically be included)
 _trespassMarkers = [];
