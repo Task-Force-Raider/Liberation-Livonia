@@ -3,8 +3,8 @@ Format = [Array of classnames as strings, Code to apply]
 _this is the reference to the object with the classname */
 
 KPLIB_objectInits = [
-    // Set KP logo on white flag
-    [["Flag_White_F"], {_this setFlagTexture "res\flag_kp_co.paa";}],
+    // Set TFR logo on white flag
+    [["Flag_White_F"], {_this setFlagTexture "res\flagtfr.jpg";}],
 
     // Add helipads to zeus, as they can't be recycled after built
     [["Land_HelipadSquare_F", "Land_HelipadCircle_F", "Land_HelipadRescue_F", "LAND_uns_Heli_pad", "Helipad", "LAND_uns_evac_pad", "LAND_uns_Heli_H"], {{[_x, [[_this], true]] remoteExecCall ["addCuratorEditableObjects", 2]} forEach allCurators;}],
