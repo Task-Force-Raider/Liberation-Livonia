@@ -47,7 +47,7 @@ _civilianHeadgear = ["CUP_H_PMC_Beanie_Khaki","CUP_H_PMC_Cap_Tan","CUP_H_PMC_Cap
 _civilianBackpacks = ["B_AssaultPack_blk","B_AssaultPack_rgr","CFP_Kitbag_Aloha","SP_Carryall_Black","B_Messenger_Black_F","B_FieldPack_blk","B_FieldPack_cbr","B_FieldPack_khk","B_FieldPack_oucamo","G_FieldPack_Medic","B_Carryall_cbr","B_Carryall_khk","B_Carryall_oucamo","B_TacticalPack_blk","B_TacticalPack_rgr","B_TacticalPack_oli","B_Kitbag_cbr","B_Kitbag_rgr","B_Kitbag_sgg","B_Respawn_Sleeping_bag_blue_F","B_Respawn_Sleeping_bag_brown_F","B_Respawn_TentDome_F","B_Respawn_TentA_F","B_Parachute","ACE_NonSteerableParachute","ACE_TacticalLadder_Pack"];
 
 //(Array of classnames) Safe vehicles to drive in (automatically includes vehicles from the civilian factions above).
-_civilianVehicleArray = [];
+_civilianVehicleArray = ["CFP_C_ME_SUV_01"];
 
 _HMDallowed = false; //(Bool - true or false) Are HMDs (night vision goggles etc.) safe to wear for units pretending to be civilians? Set to false if wearing HMDs will cause suspicion (must be stored in backpack).
 
