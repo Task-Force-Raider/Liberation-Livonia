@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1948;
+		nextID=1950;
 	};
 	class MarkerIDProvider
 	{
@@ -31353,6 +31353,55 @@ class Mission
 			{
 				class Attribute0
 				{
+					property="ace_arsenal_attribute";
+					expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
 					property="ammoBox";
 					expression="[_this,_value] call bis_fnc_initAmmoBox;";
 					class Value
@@ -31370,7 +31419,7 @@ class Mission
 						};
 					};
 				};
-				nAttributes=1;
+				nAttributes=2;
 			};
 		};
 		class Item655
@@ -31852,6 +31901,55 @@ class Mission
 			{
 				class Attribute0
 				{
+					property="ace_arsenal_attribute";
+					expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=2;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
 					property="ammoBox";
 					expression="[_this,_value] call bis_fnc_initAmmoBox;";
 					class Value
@@ -31869,7 +31967,7 @@ class Mission
 						};
 					};
 				};
-				nAttributes=1;
+				nAttributes=2;
 			};
 		};
 	};
