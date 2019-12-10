@@ -40,7 +40,6 @@ addons[]=
 	"A3_Structures_F_Mil_Flags",
 	"A3_Structures_F_Heli_Ind_Airport",
 	"CUP_Weapons_MP5",
-	"jsrs_soundmod_cup_weapons",
 	"CUP_Weapons_West_Attachments",
 	"CUP_Weapons_Ammunition",
 	"rhsusf_c_weapons",
