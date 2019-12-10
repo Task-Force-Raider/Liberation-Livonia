@@ -24,9 +24,9 @@ pilot_classname = "rhsusf_army_ocp_helipilot";                          // This 
 KP_liberation_little_bird_classname = "RHS_MELB_MH6M";                  // These are the little birds which spawn on the Freedom or at Chimera base.
 KP_liberation_boat_classname = "B_Boat_Transport_01_F";                 // These are the boats which spawn at the stern of the Freedom.
 KP_liberation_truck_classname = "rhsusf_M977A4_BKIT_usarmy_wd";         // These are the trucks which are used in the logistic convoy system.
-KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";     // A small storage area for resources.
-KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";     // A large storage area for resources.
-KP_liberation_recycle_building = "Land_RepairDepot_01_tan_F";           // The building defined to unlock FOB recycling functionality.
+KP_liberation_small_storage_building = "ContainmentArea_02_forest_F";     // A small storage area for resources.
+KP_liberation_large_storage_building = "ContainmentArea_01_forest_F";     // A large storage area for resources.
+KP_liberation_recycle_building = "Land_RepairDepot_01_green_F";           // The building defined to unlock FOB recycling functionality.
 KP_liberation_air_vehicle_building = "B_Radar_System_01_F";             // The building defined to unlock FOB air vehicle functionality.
 KP_liberation_heli_slot_building = "Land_HelipadSquare_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
 KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";             // The hangar used to increase the GLOBAL fixed-wing cap.
@@ -73,6 +73,9 @@ infantry_units = [
 
 light_vehicles = [
     ["B_Quadbike_01_F",50,0,25],                                        // Quad Bike
+    ["CUP_C_SUV_CIV",100,0,50],                                         // Blue/White SUV
+    ["CFP_C_ME_SUV_01",100,0,50],                                       // Black SUV
+    ["CUP_I_SUV_Armored_ION",100,40,50],                                // Armored SUV
     ["rhsusf_m1025_w",100,0,50],                                        // M1025A2
     ["rhsusf_m1025_w_m2",100,40,50],                                    // M1025A2 (M2)
     ["rhsusf_m1025_w_mk19",100,60,50],                                  // M1025A2 (Mk19)
@@ -132,6 +135,7 @@ air_vehicles = [
     ["B_UAV_02_dynamicLoadout_F",400,300,200],                          // MQ-4A Greyhawk
     ["B_T_UAV_03_dynamicLoadout_F",450,500,250],                        // MQ-12 Falcon
     ["B_UAV_05_F",500,500,200],                                         // UCAV Sentinel
+    ["RHSGREF_A29B_HIDF",650,750,400],                                  // A-29 Super Tucano
     ["RHS_A10",1000,1000,400],                                          // A-10A (CAS)
     ["FIR_F15C",1250,1250,450],                                         // F-15C Eagle
     ["FIR_F15D",1250,1250,450],                                         // F-15D Eagle
@@ -361,6 +365,7 @@ elite_vehicles = [
     "B_UAV_02_dynamicLoadout_F",                                        // MQ-4A Greyhawk
     "B_T_UAV_03_dynamicLoadout_F",                                      // MQ-12 Falcon
     "B_UAV_05_F",                                                       // UCAV Sentinel
+    "RHSGREF_A29B_HIDF",                                                // A-29 Super Tucano
     "RHS_A10",                                                          // A-10A (CAS)
     "FIR_F15C",                                                         // F-15C Eagle
     "FIR_F15D",                                                         // F-15D Eagle

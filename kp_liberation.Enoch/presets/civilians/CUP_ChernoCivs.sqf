@@ -64,6 +64,7 @@ civilian_vehicles = [
     "CUP_C_Lada_White_CIV",
     "CUP_C_Lada_Red_CIV",
     "CUP_C_SUV_CIV",
+    "CFP_C_ME_SUV_01",
     "CUP_C_Tractor_CIV",
     "CUP_C_Tractor_Old_CIV",
     "CUP_C_Ural_Civ_03",
