@@ -1,7 +1,7 @@
 | Q | A |
 | --- | --- |
 | Bug fix? | yes / no |
-| New feature? | yes / no <!-- don't forget to update CHANGELOG.md file --> |
+| New feature? | yes / no |
 | Needs wipe? | no <!-- set to yes if save needs to be wiped to use new feature --> |
 | Fixed issues | #... <!-- #-prefixed issue number(s), if any --> |
 
@@ -13,7 +13,9 @@ by replacing this comment block
 -->
 
 ### Content:
-- [ ] Content part
+- [ ] Content 1
+- [ ] Content 2
+- [ ] Content 3
 
 <!--
 Add things which are part of this pull request as checkboxes
@@ -21,8 +23,8 @@ to show if it's already finished and already part of the pull request.
 -->
 
 ### Successfully tested on:
-- [ ] Local MP
-- [ ] Dedicated MP
+- [ ] Local Server
+- [ ] Dedicated Server
 
 <!--
 As soon as you've tested your feature on the listed environment you can check the checkbox.
