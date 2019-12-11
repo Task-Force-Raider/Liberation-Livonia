@@ -35,16 +35,16 @@ _globalSuspicionModifier = 1;           //Scales the level of suspicion of enemi
 _civFactions = ["CIV_F","CUP_C_CHERNARUS","CUP_C_RU"]; //Array of factions whose vests are safe for undercover units to wear
 
 //(Array of classnames) Safe vests (on top of the specific factions above - useful if faction has randomisation script or to add items that are not used by the faction)
-_civilianVests = [];
+_civilianVests = ["CFP_Field_Satchel","CFP_HouthisJacket","CUP_V_OI_TKI_Jacket1_04","CUP_V_OI_TKI_Jacket1_06","CUP_V_OI_TKI_Jacket1_05"];
 
 //(Array of classnames) Safe uniforms (on top of the specific factions above - useful if faction has randomisation script or to add items that are not used by the faction)
-_civilianUniforms = ["CFP_GUER_GreenTan","U_I_L_Uniform_01_tshirt_black_F","CFP_GUER_M81Tee","U_I_L_Uniform_01_tshirt_skull_F","CFP_Bandit_Adidas","U_BG_Guerilla2_2","U_BG_Guerilla2_1","U_BG_Guerilla2_3","U_I_C_Soldier_Bandit_4_F","U_I_C_Soldier_Bandit_1_F","U_I_C_Soldier_Bandit_2_F","U_I_C_Soldier_Bandit_5_F","U_I_C_Soldier_Bandit_3_F"];
+_civilianUniforms = ["CFP_GUER_GreenTan","U_I_L_Uniform_01_tshirt_black_F","CFP_GUER_M81Tee","U_I_L_Uniform_01_tshirt_skull_F","CFP_Bandit_Adidas","U_BG_Guerilla2_2","U_BG_Guerilla2_1","U_BG_Guerilla2_3","U_I_C_Soldier_Bandit_4_F","U_I_C_Soldier_Bandit_1_F","U_I_C_Soldier_Bandit_2_F","U_I_C_Soldier_Bandit_5_F","U_I_C_Soldier_Bandit_3_F","CUP_I_B_PMC_Unit_20","CUP_I_B_PMC_Unit_22","CUP_I_B_PMC_Unit_21","CUP_I_B_PMC_Unit_19","CUP_I_B_PMC_Unit_17","CUP_I_B_PMC_Unit_13","CUP_I_B_PMC_Unit_14","CUP_I_B_PMC_Unit_16","CUP_I_B_PMC_Unit_15","CUP_I_B_PMC_Unit_3","CUP_I_B_PMC_Unit_2","CUP_I_B_PMC_Unit_1","CUP_I_B_PMC_Unit_4","CUP_I_B_PMC_Unit_42","CUP_I_B_PMC_Unit_41","CUP_I_B_PMC_Unit_43","CUP_I_B_PMC_Unit_40","CUP_I_B_PMC_Unit_39","CUP_U_C_racketeer_01","CUP_U_C_racketeer_02","CUP_U_C_racketeer_03","CUP_U_C_racketeer_04"];
 
 //(Array of classnames) Safe headgear (will automatically include civilian headgear classes - useful if faction has randomisation script or to add items that are not used by the faction)
-_civilianHeadgear = ["CUP_H_PMC_Beanie_Khaki","CUP_H_PMC_Cap_Tan","CUP_H_PMC_Cap_Back_Tan","CUP_H_PMC_Cap_Grey","CUP_H_PMC_Beanie_Black"];
+_civilianHeadgear = ["CUP_H_PMC_Beanie_Khaki","CUP_H_PMC_Cap_Tan","CUP_H_PMC_Cap_Back_Tan","CUP_H_PMC_Cap_Grey","CUP_H_PMC_Cap_Back_Grey","CUP_H_PMC_Beanie_Black","SP_BaseballCap_Black","SP_BaseballCap_Blue","SP_BaseballCap_Green","SP_BaseballCap_Red","SP_BaseballCap_Tan","H_Hat_tan"];
 
 //(Array of classnames) Safe backpacks (will automatically include civilian backpack classes - useful if faction has randomisation script or to add items that are not used by the faction)
-_civilianBackpacks = ["B_AssaultPack_blk","B_AssaultPack_rgr","CFP_Kitbag_Aloha","SP_Carryall_Black","B_Messenger_Black_F","B_FieldPack_blk","B_FieldPack_cbr","B_FieldPack_khk","B_FieldPack_oucamo","G_FieldPack_Medic","B_Carryall_cbr","B_Carryall_khk","B_Carryall_oucamo","B_TacticalPack_blk","B_TacticalPack_rgr","B_TacticalPack_oli","B_Kitbag_cbr","B_Kitbag_rgr","B_Kitbag_sgg","B_Respawn_Sleeping_bag_blue_F","B_Respawn_Sleeping_bag_brown_F","B_Respawn_TentDome_F","B_Respawn_TentA_F","B_Parachute","ACE_NonSteerableParachute","ACE_TacticalLadder_Pack"];
+_civilianBackpacks = ["B_AssaultPack_blk","B_AssaultPack_rgr","CFP_Kitbag_Aloha","SP_Carryall_Black","B_Messenger_Black_F","B_FieldPack_blk","B_FieldPack_cbr","B_FieldPack_khk","B_FieldPack_oucamo","G_FieldPack_Medic","B_Carryall_cbr","B_Carryall_khk","B_Carryall_oucamo","B_TacticalPack_blk","B_TacticalPack_rgr","B_TacticalPack_oli","B_Kitbag_cbr","B_Kitbag_rgr","B_Kitbag_sgg","B_Respawn_Sleeping_bag_blue_F","B_Respawn_Sleeping_bag_brown_F","B_Respawn_TentDome_F","B_Respawn_TentA_F","B_Parachute","ACE_NonSteerableParachute","ACE_TacticalLadder_Pack","CUP_B_HikingPack_Civ"];
 
 //(Array of classnames) Safe vehicles to drive in (automatically includes vehicles from the civilian factions above).
 _civilianVehicleArray = ["CFP_C_ME_SUV_01"];
