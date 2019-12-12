@@ -28,13 +28,13 @@ opfor_engineer = "rhsgref_ins_sapper";                                          
 opfor_paratrooper = "rhsgref_ins_saboteur";                                     // Paratrooper
 
 // Enemy vehicles used by secondary objectives.
-opfor_mrap = "rhsgref_BRDM2UM_ins";                                             // BRDM 2 Unarmed
-opfor_mrap_armed = "rhsgref_BRDM2_ins";                                         // BRDM 2 Armed
-opfor_transport_helo = "rhsgref_ins_Mi8amt";                                    // Mi-8
-opfor_transport_truck = "rhsgref_ins_gaz66";                                    // Gaz66 Covered
-opfor_ammobox_transport = "rhsgref_ins_ural_open";                              // Ural Open
+opfor_mrap = "rhs_tigr_msv";                                                    // GAZ-233011
+opfor_mrap_armed = "rhs_tigr_sts_msv";                                          // GAZ-233014
+opfor_transport_helo = "RHS_Mi8mt_Cargo_vvsc";                                  // Mi-8
+opfor_transport_truck = "RHS_Ural_MSV_01";                                      // Ural 4320
+opfor_ammobox_transport = "RHS_Ural_Open_MSV_01";                               // Ural Open
 opfor_fuel_truck = "RHS_Ural_Fuel_MSV_01";                                      // Ural Fuel
-opfor_ammo_truck = "rhsgref_ins_gaz66_ammo";                                    // GAZ Ammo
+opfor_ammo_truck = "rhs_gaz66_ammo_msv";                                        // GAZ Ammo
 opfor_fuel_container = "Land_Pod_Heli_Transport_04_fuel_F";                     // Taru Fuel Pod
 opfor_ammo_container = "Land_Pod_Heli_Transport_04_ammo_F";                     // Taru Ammo Pod
 opfor_flag = "rhs_Flag_DNR_F";                                                  // Flag
@@ -58,7 +58,8 @@ militia_squad = [
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 militia_vehicles = [
-    "rhsgref_ins_uaz_dshkm"                                                  // UAZ Dshkm
+    "rhsgref_ins_uaz_dshkm",                                                    // UAZ Dshkm
+    "rhs_tigr_m_vv"                                                             // GAZ 233114
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
@@ -67,85 +68,94 @@ opfor_vehicles = [
     "rhsgref_ins_uaz_dshkm",                                                    // UAZ Dshkm
     "rhsgref_ins_uaz_dshkm",                                                    // UAZ Dshkm
     "rhsgref_ins_uaz_dshkm",                                                    // UAZ Dshkm
+    "rhs_tigr_m_vv",                                                            // GAZ 233114
+    "rhs_tigr_m_vv",                                                            // GAZ 233114
+    "rhs_tigr_m_vv",                                                            // GAZ 233114
     "rhsgref_ins_uaz_ags",                                                      // UAZ AGS-30
     "rhsgref_ins_uaz_spg9",                                                     // UAZ SPG-9
     "rhsgref_ins_uaz_spg9",                                                     // UAZ SPG-9
-    "rhsgref_BRDM2_ins",                                                        // BRDM 2 Armed
-    "rhsgref_BRDM2_ins",                                                        // BRDM 2 Armed
-    "rhsgref_ins_btr60",                                                        // BTR-60
-    "rhsgref_ins_btr60",                                                        // BTR-60
-    "rhsgref_ins_btr70",                                                        // BTR-70
-    "rhsgref_ins_bmp2d",                                                        // BMP-2D
-    "rhsgref_ins_bmp2e",                                                        // BMP-2E
-    "rhsgref_ins_bmp1p",                                                        // BMP-1P
-    "rhsgref_ins_bmp1d",                                                        // BMP-1D
-    "rhsgref_ins_bmp1",                                                         // BMP-1
-    "rhsgref_ins_bmd1",                                                         // BMD-1
-    "rhsgref_ins_ural_Zu23",                                                    // Ural Zu23
-    "rhsgref_ins_t72ba"                                                         // T-72
+    "rhs_tigr_sts_msv",                                                         // GAZ-233014
+    "rhs_tigr_sts_msv",                                                         // GAZ-233014
+    "rhs_btr80_msv",                                                            // BTR-80
+    "rhs_btr80_msv",                                                            // BTR-80
+    "rhs_btr80a_msv",                                                           // BTR-80a
+    "rhs_bmp2d_msv",                                                            // BMP-2D
+    "rhs_bmp2k_msv",                                                            // BMP-2K
+    "rhs_brm1k_msv",                                                            // BRM-1K
+    "rhs_bmp1d_msv",                                                            // BMP-1D
+    "rhs_bmp1_msv",                                                             // BMP-1
+    "rhs_zsu234_aa",                                                            // ZSU 234
+    "RHS_Ural_Zu23_MSV_01",                                                     // Ural Zu23
+    "rhs_t72bd_tv"                                                              // T-72
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-    "rhsgref_ins_uaz_dshkm",                                            // UAZ Dshkm
-    "rhsgref_ins_uaz_dshkm",                                            // UAZ Dshkm
-    "rhsgref_ins_uaz_spg9",                                             // UAZ SPG9
-    "rhsgref_BRDM2_ins",                                                // BRDM 2 Armed
-    "rhsgref_ins_btr60"                                                 // BTR-60
+    "rhsgref_ins_uaz_dshkm",                                                    // UAZ Dshkm
+    "rhsgref_ins_uaz_dshkm",                                                    // UAZ Dshkm
+    "rhsgref_ins_uaz_spg9",                                                     // UAZ SPG9
+    "rhsgref_ins_uaz_ags",                                                      // UAZ AGS-30
+    "rhs_tigr_sts_msv",                                                         // GAZ-233014
+    "rhs_btr80_msv"                                                             // BTR-80
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-"rhsgref_ins_uaz_dshkm",                                  // UAZ Dshkm                                              // Ifrit (GMG)
-"rhsgref_ins_uaz_ags",                                    // UAZ AGS30
-"rhsgref_ins_uaz_spg9",                                   // UAZ-SPG9
-"rhsgref_ins_uaz_spg9",                                   // UAZ-SPG9
-"rhsgref_BRDM2_ins",                                      // BRDM 2 Armed
-"rhsgref_BRDM2_ins",                                      // BRDM 2 Armed
-"rhsgref_ins_btr60",                                      // BTR60
-"rhsgref_ins_btr60",                                      // BTR60
-"rhsgref_ins_btr70",                                      // BTR70
-"rhsgref_ins_bmp2d",                                      // BMP-2D
-"rhsgref_ins_bmp2e",                                      // BMP-2E
-"rhsgref_ins_bmp1p",                                      // BMP-1P
-"rhsgref_ins_bmp1d",                                      // BMP-1D
-"rhsgref_ins_bmp1",                                       // BMP-1
-"rhsgref_ins_bmd1",                                       // BMD-1
-"rhsgref_ins_ural_Zu23",                                  // Ural Zu23
-"rhsgref_ins_t72ba",                                      // T-72
-"rhsgref_ins_Mi8amt",                                     // Mi-8
-"RHS_Mi24V_AT_vvsc"                                       // Mi-24
+    "rhsgref_ins_uaz_dshkm",                                                     // UAZ Dshkm                                              // Ifrit (GMG)
+    "rhsgref_ins_uaz_ags",                                                       // UAZ AGS30
+    "rhsgref_ins_uaz_spg9",                                                      // UAZ-SPG9
+    "rhsgref_ins_uaz_spg9",                                                      // UAZ-SPG9
+    "rhs_tigr_sts_msv",                                                          // GAZ-233014
+    "rhs_tigr_sts_msv",                                                          // GAZ-233014
+    "rhs_btr80_msv",                                                             // BTR-80
+    "rhs_btr80_msv",                                                             // BTR-80
+    "rhs_btr80a_msv",                                                            // BTR-80a  
+    "rhs_bmp2d_msv",                                                             // BMP-2D
+    "rhs_bmp2k_msv",                                                             // BMP-2K
+    "rhs_brm1k_msv",                                                             // BRM-1K
+    "rhs_bmp1d_msv",                                                             // BMP-1D
+    "rhs_bmp1_msv",                                                              // BMP-1
+    "rhs_prp3_msv",                                                              // PRP-3
+    "RHS_Ural_Zu23_MSV_01",                                                      // Ural Zu23
+    "rhsgref_ins_t72ba",                                                         // T-72
+    "RHS_Mi8mt_Cargo_vvsc",                                                      // Mi-8
+    "RHS_Mi24V_AT_vvsc"                                                          // Mi-24
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
     "rhsgref_ins_uaz_dshkm",                                                    // UAZ Dshkm
     "rhsgref_ins_uaz_spg9",                                                     // UAZ SPG9
-    "rhsgref_ins_gaz66",                                                        // Gaz66 Covered
-    "rhsgref_ins_btr60",                                                        // BTR-60
-    "rhsgref_ins_btr70",                                                        // BTR-70
-    "rhsgref_ins_bmp1p",                                                        // BMP-1P
-    "rhsgref_ins_Mi8amt"                                                        // Mi-8
+    "RHS_Ural_MSV_01",                                                          // Ural 4320
+    "rhs_btr80_msv",                                                            // BTR-80
+    "rhs_btr80a_msv",                                                           // BTR-80a
+    "rhs_brm1k_msv",                                                            // BRM-1K
+    "RHS_Mi8mt_Cargo_vvsc"                                                      // Mi-8
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
 opfor_troup_transports = [
-    "rhsgref_ins_gaz66",                                                        // Gaz 66 Covered
-    "rhsgref_ins_ural_open",                                                    // Ural Open
-    "rhsgref_ins_btr60",                                                        // BTR60
-    "rhsgref_ins_btr70",                                                        // BTR70
-    "rhsgref_ins_Mi8amt"                                                         // Mi-8
+    "RHS_Ural_MSV_01",                                                          // Ural 4320
+    "RHS_Ural_Open_MSV_01",                                                     // Ural Open
+    "rhs_btr80_msv",                                                            // BTR-80
+    "rhs_btr80a_msv",                                                           // BTR-80a
+    "rhs_bmp1d_msv",                                                            // BMP-1D
+    "rhs_bmp1_msv",                                                             // BMP-1
+    "rhs_bmp2d_msv",                                                            // BMP-2D
+    "rhs_bmp2k_msv",                                                            // BMP-2K
+    "RHS_Mi24V_AT_vvsc",                                                        // Mi-24
+    "RHS_Mi8mt_Cargo_vvsc"                                                      // Mi-8
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-    "rhsgref_ins_Mi8amt",                                      // Mi-8
-    "RHS_Mi24V_AT_vvsc"                                        // Mi24 (AT)
+    "RHS_Mi8mt_Cargo_vvsc",                                                     // Mi-8
+    "RHS_Mi24V_AT_vvsc"                                                         // Mi24 (AT)
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-    "RHS_Su25SM_vvsc",                                                  // Su-25
-    "RHS_Su25SM_KH29_vvsc"                                              // Su-25 KH29
+    "RHS_Su25SM_vvsc",                                                          // Su-25
+    "RHS_Su25SM_KH29_vvsc"                                                      // Su-25 KH29
 ];
