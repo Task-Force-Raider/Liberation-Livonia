@@ -164,11 +164,11 @@ KP_liberation_arsenal = 0;
 
 /* - Fuel consumption settings.
 Time in minutes till a full tank depletes whilst the vehicle is standing still with a running engine. */
-KP_liberation_fuel_neutral = 150;
+KP_liberation_fuel_neutral = 100;
 // Time in minutes till a full tank depletes whilst the vehicle is driving below max speed.
-KP_liberation_fuel_normal = 80;
+KP_liberation_fuel_normal = 50;
 // Time in minutes till a full tank depletes whilst the vehicle is driving at max speed.
-KP_liberation_fuel_max = 35;
+KP_liberation_fuel_max = 20;
 
 /* - Gameplay constant settings.
 Name of the savegame namespace inside of the [ServerProfileName].vars.Arma3Profile file. */
@@ -193,16 +193,16 @@ GRLIB_secondary_objective_impact = 0.6;                                 // The p
 GRLIB_recycling_percentage = 0.5;                                       // Percentage of resources you get back from recycling.
 KP_liberation_production_interval = 30;                                 // Time in minutes until a production process is finished, when resources multiplier is set to 1.
 
-GRLIB_sector_size = 1000;                                               // Range to activate a sector.
+GRLIB_sector_size = 700;                                               // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.4;                                  // Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
 GRLIB_vulnerability_timer = 1200;                                       // Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 2500;                                           // Radio Tower scanning range.
-GRLIB_surrender_chance = 80;                                            // Chance that enemy infantry will surrender after heavy losses are encountered.
+GRLIB_surrender_chance = 70;                                            // Chance that enemy infantry will surrender after heavy losses are encountered.
 
 GRLIB_civilians_amount = 10;                                            // Civilian count multiplier.
-GRLIB_cleanup_delay = 1200;                                             // Time in seconds until bodies of dead soldiers are cleaned up.
+GRLIB_cleanup_delay = 700;                                             // Time in seconds until bodies of dead soldiers are cleaned up.
 
 GRLIB_blufor_cap = 100;                                                 // Cap for BLUFOR.
 GRLIB_sector_cap = 180;                                                 // Cap for sector defenders.
@@ -214,7 +214,7 @@ KP_liberation_cr_building_penalty = 3;                                  // Civil
 KP_liberation_cr_vehicle_penalty = 0;                                   // Civil Reputation penalty for stealing a civilian vehicle.
 KP_liberation_cr_resistance_penalty = 3;                                // Civil Reputation penalty for killing a friendly resistance soldier.
 KP_liberation_cr_sector_gain = 7;                                       // Civil Reputation gain for liberate a sector.
-KP_liberation_cr_wounded_chance = 35;                                   // Chance (0-100) that there are wounded civilians right after capturing a sector.
+KP_liberation_cr_wounded_chance = 45;                                   // Chance (0-100) that there are wounded civilians right after capturing a sector.
 KP_liberation_cr_wounded_gain = 5;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
 
 KP_liberation_civinfo_min = 5400;                                       // Civil Informant minimum spawn time. (seconds)
@@ -477,6 +477,8 @@ KP_liberation_allowed_items_extension = [
     "BWA3_PzF3",
     "BWA3_RGW90_Used",
     "BWA3_RGW90",
+    "cup_optic_sb_11_4x20_pm_od_pip",
+    "cup_optic_sb_11_4x20_pm_tan_pip",
     "ItemRadioAcreFlagged",
     "rhs_acc_ekp8_18b",
     "rhs_acc_ekp8_18c",
@@ -842,7 +844,7 @@ boats_names = [
     "O_Boat_Armed_01_hmg_F",
     "O_Boat_Transport_01_F",
     "O_T_Boat_Armed_01_hmg_F",
-    "O_T_Boat_Transport_01_F",    
+    "O_T_Boat_Transport_01_F",
     "CUP_B_MK10_GB",
     "CUP_B_RHIB_USMC",
     "CUP_B_RHIB2Turret_USMC",
