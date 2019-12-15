@@ -85,7 +85,7 @@ All high security zones are automatically considered non-civilian territory, but
 In these settings, you can .
 */
 
-_highSecMarkers = []; 					//Names of additional markers for areas that are designated high security zones that require specific uniforms to enter without raising suspicion (any with "INC_highSec" - case sensitive - somewhere in the marker name will automatically be included)
+_highSecMarkers = ["Highsec_01", "Highsec_02", "Highsec_03", "Highsec_04", "Highsec_05", "Highsec_06", "Highsec_07", "Highsec_08", "Highsec_09", "Highsec_10", "Highsec_11", "Highsec_12", "Highsec_13", "Highsec_14", "Highsec_15", "Highsec_16", "Highsec_17", "Highsec_18", "Highsec_19", "Highsec_20", "Highsec_21", "Highsec_22", "Highsec_23", "Highsec_24", "Highsec_25", "Highsec_26", "Highsec_27", "Highsec_28", "Highsec_29", "Highsec_30", "Highsec_31", "Highsec_32", "Highsec_33", "Highsec_34"]; 					//Names of additional markers for areas that are designated high security zones that require specific uniforms to enter without raising suspicion (any with "INC_highSec" - case sensitive - somewhere in the marker name will automatically be included)
 
 _highSecInstantHostile = false;         // If true, units entering high security areas with the wrong uniform will be instantly deemed hostile by enemy forces. If false, it will be highly suspicious.
 
